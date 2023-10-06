@@ -14,7 +14,7 @@ public class ConnectionPoolingApp {
 		// Creating a pooled connection object
 		MysqlConnectionPoolDataSource dataSource = new MysqlConnectionPoolDataSource();
 
-		dataSource.setURL("jdbc:mysql://localhost:3306/enterprisejavabatch");
+		dataSource.setURL("jdbc:mysql://localhost:3306/details");
 		dataSource.setUser("root");
 		dataSource.setPassword("root123");
 
